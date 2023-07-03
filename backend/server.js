@@ -12,9 +12,9 @@ const path = require('path');
 dotenv.config();
 connectDB();
 app.use(express.json()); //to accept JSON data
-app.get('/',(req, res) => {
-    res.send("API is Running");
-})
+// app.get('/',(req, res) => {
+//     res.send("API is Running");
+// })
 
 app.use('/api/user',userRoutes);
 app.use('/api/chat',chatRoutes);
