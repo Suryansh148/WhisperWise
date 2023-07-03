@@ -21,7 +21,7 @@ import animationData1 from "../animations/typing.json";
 import animationData2 from "../animations/EmptyChatBox.json"
 import MessageLoading from "./MessageLoading"
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://whisperwise.onrender.com/";
 var socket, selectedChatCompare;
 
 export const SingleChat = ({fetchAgain,setFetchAgain}) => {
